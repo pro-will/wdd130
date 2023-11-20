@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Roboto&display=swap');
+
+:root {
+    --main-bg-color: brown;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.hero img { 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero div {
+    display: block;
+    top: relative;
+    margin: auto;
+}
+
+h1 {
+  position: absolute;
+  color: red;
+  background-color: #eeee;
+}
+
+footer {
+    padding: 2rem;
+    width: auto;
+    height: 10px;
+}
