@@ -9,37 +9,24 @@ body {
   font-family: Roboto, Arial, sans-serif;
 }
 
-main {
-  max-width: 840px;
-}
-
 nav {
   background-color: steelblue;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  padding: 10px;
 }
-
-
+  
 nav a {
+  color: white;
+  padding: 10px;
   display: block;
-  padding: 0.5rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #fff; 
 }
 
 h1 {
   color: steelblue; 
   padding: .5rem; 
-  bottom: auto;
 }
 
-header, footer {
-  max-width: 840px;
-  margin: 0 auto;
+main {
+  max-width: 640px;
 }
 
 main img {
@@ -47,22 +34,19 @@ main img {
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
-  box-shadow: 0 0 1rem 1rem;
+  box-shadow: 0 0 30px gray;
   float: right;
   margin: 0 0 1rem 1rem;
 }
 
 p {
-  margin: 1rem;  
+  margin: 1rem;
 }
+
 aside {
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid solid rgba(0, 0, 0, 2); /* 1 */
-  padding: 1rem;
-  background-color: #eee;
-  coor: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
@@ -72,10 +56,7 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 67px;
-  left: 150px;
 }
-
 
 footer {
   margin-top: 1rem;
