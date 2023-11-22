@@ -12,18 +12,18 @@ main {
 }
 
 nav {
-    background-color: steelblue;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
     
-  nav a {
-    color: white;
-    padding: 10px;
-    display: block;
-  }
+nav a {
+   color: white;
+   padding: 10px;
+   display: block;
+}
 
 .hero img { 
     display: block;
@@ -42,11 +42,11 @@ nav {
 h1 {
   position: absolute;
   color: red;
-  background-color: #eeee;
+  background-color: #eee;
 }
 
 footer {
-    padding: 2rem;
+    padding: 1rem;
     width: auto;
-    height: 10px;
+    height: 2px;
 }
