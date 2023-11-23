@@ -51,6 +51,7 @@ aside {
   text-align: center;
 }
 
+/* .Grid Selectors */
 .grid {
   display: grid;
   align-items: center;
