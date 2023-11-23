@@ -16,10 +16,11 @@ main {
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
+	grid-template-columns: 290px 1fr 2fr;
+	align-items: center;;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
+    text-decoration: white;
 }
 
 .logo img {
@@ -36,6 +37,7 @@ h1 {
 
 nav {
 	text-align: right;
+    
 }
 
 .navigation {
@@ -99,5 +101,4 @@ footer {
     padding: 1rem;
     width: auto;
     height: 2px;
-    background-color: white;
 }
