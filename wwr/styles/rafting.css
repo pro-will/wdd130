@@ -5,14 +5,6 @@
     --main-bg-color: brown;
 }
 
-.grid-contenair {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:30px;
-    background-color: #8cc1ec;
-    padding: 10px;
-}
-
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -38,6 +30,16 @@ header {
 h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
+    justify-content: left;
+}
+
+h2 {
+  justify-content: space-evenly;
+}
+
+div {
+  width: auto; 
+  float: right;
 }
 
 nav {
@@ -52,6 +54,7 @@ nav {
 
 .navigation li {
 	flex: 1 1 100%;
+    justify-content: space-evenly;
 }
 
 .navigation a {
@@ -65,10 +68,10 @@ nav {
 	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
+    
 }
 
 nav {
-    background-color: 
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -80,13 +83,14 @@ nav {
     color: white;
     padding: 10px;
     display: block;
+
  }
 
 .hero img { 
     display: block;
     width: 100%;
     height: auto;
-    float: right;
+   
 }
 
 
@@ -94,4 +98,5 @@ footer {
     padding: 1rem;
     width: auto;
     height: 2px;
+    justify-content: left;
 }
