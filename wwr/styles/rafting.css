@@ -187,7 +187,6 @@ body {
   .form-item {
 	  display: grid;
 	  align-items: center;
-	  grid-rows: auto;
   }
   
   .column1 {
