@@ -136,7 +136,7 @@ body {
   
   fieldset {
 	 display: grid;
-	 grid-gap: 1.5rem;
+	 grid-gap:.5rem;
 	 margin: .1rem;
 	 border: 1px solid rgba(0, 0, 0, 0.2);
 	 padding: 1rem;
