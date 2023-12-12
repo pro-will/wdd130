@@ -56,7 +56,12 @@ body {
     background-size: cover;
   }
 
-
+.nav fid {
+	display: contents;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
 
   .grid-container {
 	display: grid;
@@ -188,12 +193,6 @@ article {
 	content: "";
 	display: table;
 	clear: both;
-  }
-
-  .section img {
-	float: right;
-	box-sizing: content-box;
-	position: relative;
   }
 
   
