@@ -1,3 +1,19 @@
+
+:root {
+	--primary-color: #064e8d;
+	--secondary-color: #a4600d;
+	--accent1-color: #fff;
+	--accent2-color: #0000000;
+
+	--heading-font: 'raleway', serif;
+	--paragraph-font: 'roboto condensed', serif;
+
+	--nav-background-color: #fff;
+	--nav-link-color: #064e8d;
+	--nav-hover-link-color: #a4600d;
+	--nav-hover-background-color: rgba(6, 78, 141, .8);
+}
+
 * {
   margin: 0;
   padding: 0;
