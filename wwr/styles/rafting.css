@@ -190,6 +190,12 @@ article {
 	clear: both;
   }
 
+  .section img {
+	float: right;
+	box-sizing: content-box;
+	position: relative;
+  }
+
   
 
   
