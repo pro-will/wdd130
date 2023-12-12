@@ -22,7 +22,8 @@ body {
     max-width: 960px;
     padding: 20px;
 	justify-content: center;
-	justify-items: auto;
+	justify-items: center;
+	align-items: center;
   }
  
   
@@ -33,7 +34,9 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	position: relative;
-	
+	justify-items: center;
+	align-items: center;
+	align-content: center;
 	
   }
 	
@@ -46,6 +49,11 @@ body {
 	font-weight: 800;
 	color:black;
 	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+    background-size: cover;
   }
 
 
@@ -53,20 +61,19 @@ body {
   .grid-container {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+	grid-template-columns: 5px 5px 5px; /*Make the grid smaller than the container*/
 	gap: 10px;
 	background-color: #2196F3;
 	padding: 10px;
 	width: 50%;
   }
 
-  .grid-container > div {
+  .grid-container div {
 	background-color: rgba(255, 255, 255, 0.8);
 	text-align: center;
 	padding: 20px 0;
 	font-size: 30px;
   }
-
 
   .box {
 	margin: 1rem;
@@ -166,6 +173,22 @@ body {
 	height: auto;
 	
 }
+
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+	height: 300px; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
   
 
