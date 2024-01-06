@@ -21,40 +21,67 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-	justify-content: center;
-	justify-items: center;
-	align-items: center;
   }
  
+  .collection {
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+   
+  }
   
-  nav {
-	background-color: none;
-	padding: 1rem;
-	margin: .2px;
-	display: flex;
-	justify-content: space-evenly;
-	position: relative;
-	justify-items: center;
-	align-items: center;
-	align-content: center;
-	background-position: center;
-	background-color: #2196F3;
-	
+  .collection li {
+	font-size: 20px;
+	padding: 20px;
+	float: right;
   }
-	
-  nav a {
-	display: flex;
-	padding: 0.2rem;
-	margin: 2%;
-	text-decoration: black;
-	font-size: 1.2rem;
-	font-weight: 200;
-	color:black;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-items: center;
-	align-items: center;
 
+  div.cover {
+	position: relative;
+	text-align: center;
+	color: white;
   }
+
+  .Top {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 45px;
+	font-size: 30px;
+	
+  }
+
+  .bottom {
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	bottom: 50px;
+	left: 45%;
+	align-items: center;
+	
+  }
+
+  img.cover-play {
+	position: relative;
+    height: 100%;
+  }
+
+  h1 {
+	color: black;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  }
+
+  div.cover p {
+	 color: blue;
+	 margin-top: 8px;
+	 margin-bottom: 0px;
+  }
+
+
 
 .nav fid {
 	display: contents;
