@@ -53,14 +53,23 @@ body {
 	
   }
 
-  .bottom {
-	color: white;
+  .button {
+	text-decoration: white;
 	font-size: 25px;
 	position: absolute;
 	bottom: 50px;
 	left: 45%;
 	align-items: center;
 	
+  }
+
+  div.button {
+	background-color: red;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	display: inline-block;
+	text-decoration-color: white;
   }
 
   img.cover-play {
