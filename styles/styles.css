@@ -29,6 +29,10 @@ main img {
   height: auto;
 }
 
+main {
+  max-width: 840px;
+}
+
 p {
   padding: 0px;
 }
