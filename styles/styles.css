@@ -15,14 +15,6 @@ h1 {
   color: steelblue;
 }
 
-main {
-  max-width: 84px;
-}
-
-main img {
-  width: 150px;
-  height: auto;
-}
 
 img {
   width: 150px;
@@ -30,6 +22,11 @@ img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+}
+
+main img {
+  width: 150px;
+  height: auto;
 }
 
 p {
