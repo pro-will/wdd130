@@ -3,14 +3,14 @@
 :root {
 	--prumary-color: #eee;
 	--secondary-color: #000;
-	--accent1-color: gray;
+	--accent1-color: rgb(9, 37, 250);
 	--accent2-color: brown;
 
 	--heading-font: var(--accent1-color), serif;
 	--paragraph-font: var(var(--accent2-color)), serif;
 
 	--nav-background-color:var(--accent1-color);
-	--nav-link-color:rgb(177, 194, 177);
+	--nav-link-color:rgb(177, 180, 194);
 	--nav-hover-link-color: #0000
 	--nav-hover-background-color: var(--prumary-color);
 }
