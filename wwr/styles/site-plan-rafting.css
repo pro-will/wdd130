@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  
+
 :root {
 	--prumary-color: #eee;
 	--secondary-color: hsl(0, 23%, 94%);
@@ -14,14 +21,6 @@
 	--nav-hover-link-color: #0000
 	--nav-hover-background-color: var(--prumary-color);
 }
-
-
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-  }
  
   h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
