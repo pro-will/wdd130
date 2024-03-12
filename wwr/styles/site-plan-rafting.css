@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=option-2nd-font-name&display=swap');
 
+:root {
+	--prumary-color: #eee;
+	--secondary-color: #000;
+	--accent1-color: gray;
+	--accent2-color: brown;
+
+	--heading-font: var(--accent1-color), serif;
+	--paragraph-font: var(var(--accent2-color)), serif;
+
+	--nav-background-color:var(--accent1-color);
+	--nav-link-color:rgb(177, 194, 177);
+	--nav-hover-link-color: #0000
+	--nav-hover-background-color: var(--prumary-color);
+}
+
+
 
 body {
     font-family: var(--paragraph-font);
