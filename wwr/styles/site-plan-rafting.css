@@ -10,7 +10,7 @@ body {
 :root {
 	--primary-color: #0f073d;
 	--secondary-color: hsl(0, 6%, 17%);
-	--accent1-color: rgba(159, 4, 255, 0.953);
+	--accent1-color: rgba(4, 79, 255, 0.953);
 	--accent2-color: rgb(238, 14, 14);
 
 	--heading-font: var(--accent1-color), serif;

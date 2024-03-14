@@ -1,0 +1,32 @@
+:root {
+	--primary-color: #0f073d;
+	--secondary-color: hsl(0, 6%, 17%);
+	--accent1-color: rgba(4, 38, 255, 0.43);
+	--accent2-color: rgb(238, 14, 14);
+
+	--heading-font: var(--accent1-color), serif;
+	--paragraph-font: #eee, serif;
+
+	--nav-background-color: var(--accent1-color);
+	--nav-link-color:rgb(255, 255, 255);
+	--nav-hover-link-color: #0000
+	--nav-hover-background-color: var(--prumary-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1, article {
+    position: absolute;
+}
+
+.article img {
+   float: right; 
+}
+
+
+
