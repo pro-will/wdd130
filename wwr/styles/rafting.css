@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
 	--primary-color: #0f073d;
 	--secondary-color: hsl(0, 6%, 17%);
@@ -20,13 +22,7 @@
     position: relative;
 }
 
-h1, article {
-    position: absolute;
-}
 
-.article img {
-   float: right; 
-}
 
 
 
