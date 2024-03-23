@@ -15,12 +15,91 @@
 	--nav-hover-background-color: var(--prumary-color);
 }
 
+.logo {
+    height: 40%;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+  
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
+	box-shadow: center;
 }
+
+h1 {
+	display: block;
+	font-size: 1.5rem;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+
+.div img {
+	position:absolute;
+	display: inline-block;
+	
+}
+
+figure {
+	display: inline-block;
+	border: 1px #cccccc solid;
+	padding: 4px;
+	margin: auto;
+  }
+  
+  figcaption {
+	background-color: black;
+	color: white;
+	font-style: italic;
+	padding: 2px;
+	text-align: center;
+  }
+
+
+  
+
+
 
 
 
