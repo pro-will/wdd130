@@ -34,10 +34,9 @@ header {
 
 
 .hero img { 
-    display: flex;
-	width: 100%;
-	height: auto;
+	width: 100%;	
 }
+
 
 .div sectiom img {
 	width: 50%;
