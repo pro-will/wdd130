@@ -33,10 +33,32 @@ header {
 	max-width: 1000px;
 }
 
-.hero img {
-    display: center;
-	width: 200px;
-	
+
+.hero img { 
+    display: block;
+    width: 100%;
+    height: au
+}
+
+.div sectiom img {
+	width: 50%;
+	margin: 20px;
+	margin: 20px;
+	float: right;
+}
+
+.div section p {
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+
+.box-employees {
+	justify-content: flex;
+	text-align: left;
+
 }
 
 
@@ -75,15 +97,14 @@ nav {
 }
 
 
-
 figure {
 	display: inline-block;
 	border: 1px #cccccc solid;
 	padding: 4px;
 	margin: auto;
   }
-  
-  figcaption {
+
+ figcaption {
 	background-color: black;
 	color: white;
 	font-style: italic;
@@ -94,10 +115,10 @@ figure {
   h2 {
 	text-align: center;
   }
-
-  .sociallink {
-	width: 50px;
+  
+.nav-sociallink {
 	display: inline-block;
+	width: 20%;
   }
 
 
