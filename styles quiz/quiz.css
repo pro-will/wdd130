@@ -84,9 +84,10 @@ input[type=textarea] {
 
 
 p {
+  background-color: #3c3c3c;
   border: 1px solid black;
   margin: 10px 5px 15px;
-  padding: 3% 5% 3%;
+  padding: 2% 3% 2%;
   color: #eee;
 }
 
