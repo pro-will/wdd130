@@ -9,6 +9,148 @@
         content="William Pelo Kibwila, I am studing Web development at BYU-Idaho University, this course of the Web Fundamentals's home page.">
     <meta name="author" content="William Pelo Kibwila">
     <link rel="stylesheet" href="styles/quiz.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+  margin: 0.5rem;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  background: #fff;
+  padding: 1rem;
+}
+
+
+input[type=text], select {
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+input[type=submit] {
+ width: 100%;
+ background-color: #4CAF50;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+input[type=textarea] {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=submit]:hover {
+ background-color: #45a049;
+}
+
+div {
+ border-radius: 5px;
+ background-color: #f2f2f2;
+ padding: 20px;
+}
+
+form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 1.5rem;
+  margin: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.column {
+   grid-template-columns: 3fr 1fr 1fr;
+   margin: 0.5rem 0;
+}
+
+p {
+  background-color: #3c3c3c;
+  border: 1px solid black;
+  margin: 10px 5px 15px;
+  padding: 2% 3% 2%;
+  color: #eee;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+
+input[type="checkbox"] {
+  width: 2px;
+  height: 2px;
+  vertical-align: bottom;
+
+}
+
+
+input,select,textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+h1 {
+  margin: 1rem;
+  font-size: 1.3em;
+  color: navy;
+  text-align: center;
+
+}
+
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+    </style>
 </head>
 
 <body>
@@ -20,23 +162,23 @@
             <fieldset>
                 <div class="form-item">
                     <div class="form-item colomn">
-                    <label for="text">1. What does the acronym CSS standard for?</label>
-                    <input type="text" id="Q1" name="What does the acronym CSS stand for?">
+                    <label for="Q1">1. What does the acronym CSS standard for?</label>
+                    <input type="Q1" id="Q1" name="What does the acronym CSS stand for?">
 
-                    <label for="textarea">2. How are id and class attributes selected in css?</label>
-                    <input type="textarea" id="Q2" name="How are id and class attributes selected?">
+                    <label for="Q2">2. How are id and class attributes selected in css?</label>
+                    <input type="Q2" id="Q2" name="How are id and class attributes selected?">
 
 
-                    <label for="select">3. Which of the following is a valid css comment?</label>
+                    <label for="Q3">3. Which of the following is a valid css comment?</label>
                     <select id="select" name="combo box">
-                        <option value="" selected disabled>Choose One ...</option>
-                        <option value="" selected disabled>Choose Two ...</option>
-                        <option value="" selected disabled>Choose Three ...</option>
+                        <option value="selected disabled">Choose One ...</option>
+                        <option value="selected disabled">Choose Two ...</option>
+                        <option value="selected disabled">Choose Three ...</option>
                     </select>
 
-                    <label for="A number">4. What is the buttom margin given this declaration?</label>
+                    <label for="Q4">4. What is the buttom margin given this declaration?</label>
                     <p style="background-color: #3c3c3c;">margin: 10px 5px 15px;</p>
-                    <input type="A number" id="integer number" name="What is the buttom margin given this declaration?">
+                    <input type="Q4" id="integer number" name="What is the buttom margin given this declaration?">
 
                     <button type="submit">Submit Quiz</button>
                 </div>
