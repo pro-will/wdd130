@@ -37,18 +37,16 @@ header {
 	width: 100%;	
 }
 
-
-.div sectiom img {
-	width: 50%;
-	margin: 20px;
-	margin: 20px;
-	float: right;
-}
-
 .div section p {
 	text-align: left;
 	padding: 10px;
 	margin: 10px;
+}
+
+.employees {
+   position: relative;
+   text-align: left;
+
 }
 
 
