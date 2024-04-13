@@ -26,7 +26,6 @@
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 1px 1fr 2fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -45,7 +44,7 @@ header {
 
 
 nav {
-	text-align: right;
+	text-align: center;
 }
 
 .navigation {
