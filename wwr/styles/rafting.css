@@ -3,7 +3,7 @@
 :root {
 	--primary-color: #0f073d;
 	--secondary-color: hsl(0, 6%, 17%);
-	--accent1-color: rgba(4, 38, 255, 0.43);
+	--accent1-color: rgba(250, 250, 250, 0.43);
 	--accent2-color: rgb(238, 14, 14);
 
 	--heading-font: var(--accent1-color), serif;
@@ -12,6 +12,15 @@
 	--nav-background-color: var(--accent1-color);
 	--nav-link-color:rgb(255, 255, 255);
 	--nav-hover-link-color: #0000
+}
+
+.header-type {
+	display: flex;
+    flex-direction: row;
+    color: rgb(6, 85, 119);
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 5px;
 }
 
 .navigation:hover {
