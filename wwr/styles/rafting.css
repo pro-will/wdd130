@@ -14,21 +14,12 @@
 	--nav-hover-link-color: #0000
 }
 
-.logo {
-    height: 40%;
-    position: relative;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: 50px;
-  
+.navigation:hover {
+	color: white;
 }
 
-header {
-	margin: 1rem auto;
-	display: grid;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+.navigation:active {
+	color: white;
 }
 
 
