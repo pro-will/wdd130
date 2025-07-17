@@ -5,10 +5,10 @@
 }
 
 :root {
-  --primary-color: 003049;
-  --secondary-color: D62828;
-  --accent1-color: F77F00;
-  --accent2-color: FCBF49;
+  --primary-color: FB8500;
+  --secondary-color: FFB703;
+  --accent1-color: 219EBC;
+  --accent2-color: 023047;
   --Heading-font: "Roboto", sans-serif;
   --body-font: "Lato", sans-serif;
 }
@@ -21,9 +21,8 @@ body {
 
 h1, h2 {
     font-family: var(--Heading-font);
-    color: var(--primary-color);
-    font-weight: 400;
-    
+    color: var(--secondary-color);
+    font-weight: 400; 
 }
 
 header {
@@ -90,5 +89,6 @@ div.client {
 .client article p {
     margin: 0;
 }
+
 
 
