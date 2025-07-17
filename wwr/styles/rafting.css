@@ -1,9 +1,92 @@
-body {
-   font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+:root {
+  --primary-color: 003049;
+  --secondary-color: D62828;
+  --accent1-color: F77F00;
+  --accent2-color: FCBF49;
+  --Heading-font: "Roboto", sans-serif;
+  --body-font: "Lato", sans-serif;
+}
+
+body {
+   font-family: var(--body-font);
+   color: var(--accent1-color);
+   font-weight: 400;
+}
+
+h1, h2 {
+    font-family: var(--Heading-font);
+    color: var(--primary-color);
     font-weight: 400;
     
 }
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+} 
+
+nav, p, section {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+  position: absolute;  
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 140px;
+    height: 140px;
+    border: 10px solid var(--primary-color);
+    margin: 5px;
+    box-shadow: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+div.client {
+    display: block;
+    position: absolute;
+    top: 85px;
+    background-color: rgb(0, 48, 73, 0.842);
+    color: white;
+    margin: 20px;
+    padding: 2px;
+}
+
+.client article p {
+    margin: 0;
+}
+
+
