@@ -69,7 +69,7 @@ h1 {
 .hero article img {
     float: right;
     width: 140px;
-    height: 140px;
+    height: 120px;
     border: 10px solid var(--primary-color);
     margin: 5px;
     box-shadow: 10px solid rgba(0, 0, 0, 0.5);
@@ -83,6 +83,8 @@ div.client {
     color: white;
     margin: 20px;
     padding: 2px;
+   text-align: justify;
+    
 }
 
 .client article p {
