@@ -26,8 +26,47 @@ h1, h2 {
 }
 
 header {
-    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 120fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    background-color: var(--accent2-color);
     color: var(--accent2-color);
+}
+
+header img {
+    margin: 2rem;
+	width: 105px;
+	height: auto;
+    margin-left: 55px;
+}
+
+.navigation {
+    display: flex;
+	flex-wrap: wrap;
+    background-color: white;
+	list-style: none;
+	padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 10px;
+	font-family: Arial, sans-serif;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
 }
 
 header, main, footer {
@@ -39,6 +78,41 @@ nav, p, section {
     margin: 5px;
     padding: 8px;
 }
+
+.images-adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images-adventures h2 {
+    flex-basis: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 160px;
+  margin: auto;
+}
+
+img section {
+  max-width: 180px;
+  max-height: 180px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
 
 .socialmedia a {
     text-decoration: none;
