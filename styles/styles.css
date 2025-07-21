@@ -27,7 +27,7 @@ nav a {
 
 h1 {
     color: darkblue;
-    border-bottom: 5px solid darkblue;
+    border-bottom: 1px solid #000;
     
 }
 
@@ -56,19 +56,20 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
-    grid-column: 1/2;
+    z-index: 1;
     grid-row: 1/2;
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+    width: 280px;
+    height: 300px;
 }
 
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 150px;
+    left: 128px;
+    padding: 18px;
     font-size: small;
 }
 
@@ -82,7 +83,7 @@ main {
     margin: 1rem;
 }
 
-header, footer {
+header,.grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
