@@ -8,7 +8,7 @@
   --primary-color: #219ebc;
   --secondary-color: #023047;
   --accent1-color: #ffb703;
-  --accent2-color: #fb8500;
+  --accent2-color: #da780a;
   --Heading-font: "Roboto", sans-serif;
   --body-font: "Lato", sans-serif;
 }
@@ -33,6 +33,7 @@ header {
 	max-width: 1000px;
     background-color: var(--accent2-color);
     color: var(--accent2-color);
+   border-radius: 1px;
 }
 
 header img {
@@ -83,12 +84,15 @@ nav, p, section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 3px;
+    font-size: 15px;
 }
 
 .images-adventures h2 {
     flex-basis: 100%;
-    text-align: left;
+    text-align: center;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 figure {
@@ -96,7 +100,7 @@ figure {
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 160px;
+  max-width: 150px;
   margin: auto;
 }
 
