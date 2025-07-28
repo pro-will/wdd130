@@ -73,8 +73,10 @@ button {
     color:#fff;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
+    padding: .98rem;
     font-size: 1.2rem;
+    width: 200px;
+    
 }
 
 button:hover {
@@ -88,4 +90,18 @@ footer {
     font-size: 0.8em;
     color: #777;
     border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.colomn2 {
+    grid-template-columns: 1fr 2fr;
 }
