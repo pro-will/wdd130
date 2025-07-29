@@ -64,7 +64,9 @@ input, select, textarea {
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
+    margin-left: 395px;
+    margin-bottom: 15px;
+    
 }
 
 button {
@@ -76,7 +78,9 @@ button {
     padding: .98rem;
     font-size: 1.2rem;
     width: 200px;
-    
+    cursor: pointer;
+    margin: 25px auto 0;
+    margin-top: 5px;
 }
 
 button:hover {
@@ -100,6 +104,12 @@ footer {
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
+}
+
+.colomn1 label {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 0.5rem;
 }
 
 .colomn2 {
