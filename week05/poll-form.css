@@ -63,9 +63,7 @@ input, select, textarea {
 
 input[type="checkbox"] {
     width: 22px;
-    height: 22px;
-    margin-left: 395px;
-    margin-bottom: 15px;
+    height: 22px;  
 }
 
 button {
@@ -105,22 +103,17 @@ footer {
     margin: 0.5rem 0;
 }
 
-.checkbox-form {
-    display: grid;
-    grid-template-columns: 2fr;
-    gap: 0.5rem;
-}
+.box-pet {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 138px;
+    margin-bottom: 45px;
 
+}
 
 .colomn1 label {
-    text-align: left;
-    margin-left: 30px;
-    margin-bottom: 10px;
-}
-
-.colomn1 input[type="checkbox"] {
-    margin-top: 0rem;
-
+    text-align: center;
+    
 }
 
 .colomn2 {

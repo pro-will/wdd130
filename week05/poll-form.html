@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-       <h1>WDD 130 | William Pelo Kibwila | HTML Form - User Poll</h1>
+       <h1>WDD 130 | HTML Form - User Poll</h1>
    </header>
    <main>
      <form class="form-item">
@@ -43,9 +43,11 @@
                 </select>
             </div>
             <div class="form-item colomn1">
-               <label for="pet">Do you have a household pet?</label>
-               <input type="checkbox" id="pet" name="pet">
-               <label for="feedback">List the places you have lived:</label>
+                <div class="box-pet">
+                    <label for="pet">Do you have a household pet?</label><br>
+                    <input type="checkbox" id="pet" name="pet" value="pet">
+               </div>
+               <label for="feedback">List the places you have lived:</label><br>
                <textarea id="feedback" name="feedback" rows="4" placeholder="Kinshasa DRC, Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
             </div>
         </fieldset>
