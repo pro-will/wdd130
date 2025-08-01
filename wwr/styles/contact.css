@@ -121,119 +121,6 @@ nav, p, section {
 
 }
 
-
-.images-adventures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 3px;
-    font-size: 15px;
-   
-}
-
-.images-adventures h2 {
-    flex-basis: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
-figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  column-gap: 5px;
-  padding: 5px;
-  max-width: 200px;
-  margin: auto;
-}
-
-img section {
-  max-width: 180px;
-  max-height: 180px;
-}
-
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-  position: absolute;  
-  top: 43px;
-  width: 100%;
-  padding: 14px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.hero article img {
-    float: right;
-    width: 140px;
-    height: 120px;
-    border: 5px solid transparent;
-    margin: 5px;
-    
-}
-
-div.client {
-    display: block;
-    position: absolute;
-    top: 80px;
-    background-color: rgb(0, 48, 73, 0.842);
-    color: white;
-    margin: 65px;
-    padding: 2px;
-   text-align: justify;
-    
-}
-
-.client article p {
-    margin: 0px;
-}
-
-.rafting-history, .adventures {
-    color: var(--primary-color);
-}
-
-footer {
-    background-color: var(--accent2-color);
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: right;
-    border: 1px solid black;
-    
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia a img {
-    width: 40px;
-    height: 40px;
-    right: 75px;
-}
-
-.socialmedia a:hover {
-    opacity: 0.7;
-}
-
 .form-box {
     margin: 0 auto;
     padding: 1rem;
@@ -317,7 +204,6 @@ footer {
 .box-pet {
     display: flex;
     justify-content: flex-start;
-    margin-left: 50px;
     margin-bottom: 45px;
 
 }
@@ -329,4 +215,116 @@ footer {
 
 .colomn2 {
     grid-template-columns: 1fr 2fr;
+}
+
+.images-adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 3px;
+    font-size: 15px;
+   
+}
+
+.images-adventures h2 {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  column-gap: 5px;
+  padding: 5px;
+  max-width: 230px;
+  margin: auto;
+}
+
+img section {
+  max-width: 220px;
+  max-height: 230px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+  position: absolute;  
+  top: 43px;
+  width: 100%;
+  padding: 14px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 140px;
+    height: 120px;
+    border: 5px solid transparent;
+    margin: 5px;
+    
+}
+
+div.client {
+    display: block;
+    position: absolute;
+    top: 80px;
+    background-color: rgb(0, 48, 73, 0.842);
+    color: white;
+    margin: 65px;
+    padding: 2px;
+   text-align: justify;
+    
+}
+
+.client article p {
+    margin: 0px;
+}
+
+.rafting-history, .adventures {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: right;
+    border: 1px solid black;
+    
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 40px;
+    height: 40px;
+    right: 75px;
+}
+
+.socialmedia a:hover {
+    opacity: 0.7;
 }
