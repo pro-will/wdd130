@@ -90,43 +90,11 @@ nav, p, section {
     padding: 8px;
 }
 
-.flexbox-container {
-   display: flex;
-   flex-wrap: wrap;
-   max-height: 840px;
-}
-
-.box-content {
-    width: 190px;
-    height: 270px;
-    margin: 1rem;
-    margin: 0 auto;
-  
-}
-
-.box-content img {
-    width: 160px;
-    height: 160px;
-    position: relative;
-    align-self: center;
-}
-
-.box-content h2 {
-    text-align: center;
-}
-
-.box-content p {
-    min-height: 280px;
-    margin-left: 0;
-
-}
-
 .form-box {
     margin: 0 auto;
-    padding: 1rem;
+    padding: .1rem;
     border: 1px solid rgb(0 0 0/0.1);
     border-radius: 0.5rem;
-    width: 650px;
     background-color: #eee;
     display: grid;
 }
@@ -161,7 +129,8 @@ input, select, textarea {
 
 input[type="checkbox"] {
     width: 22px;
-    height: 22px;  
+    height: 22px; 
+    margin-right: 12px; 
 }
 
 button {
@@ -172,10 +141,10 @@ button {
     border-radius: .5rem;
     padding: .98rem;
     font-size: 1.2rem;
-    width: 200px;
+    width: 280px;
     cursor: pointer;
-    margin: 25px auto 0;
-    margin-top: 5px;
+    margin: 8px auto 0;
+    margin-top: 2px;
 }
 
 button:hover {
@@ -184,7 +153,7 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    width: 650px;
+    width: 790px;
     text-align: center;
     font-size: 0.8em;
     color: #777;
@@ -196,26 +165,14 @@ footer {
     align-items: center;
 }
 
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.box-pet {
+.box-checkbox {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 45px;
 
 }
 
-.colomn1 label {
-    text-align: center;
-    
-}
 
-.colomn2 {
-    grid-template-columns: 1fr 2fr;
-}
 
 .images-adventures {
     display: flex;
@@ -239,12 +196,12 @@ figure {
   flex-flow: column;
   column-gap: 5px;
   padding: 5px;
-  max-width: 230px;
+  max-width: 250px;
   margin: auto;
 }
 
 img section {
-  max-width: 220px;
+  max-width: 200px;
   max-height: 230px;
 }
 
@@ -256,51 +213,6 @@ figcaption {
   text-align: center;
 }
 
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-  position: absolute;  
-  top: 43px;
-  width: 100%;
-  padding: 14px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.hero article img {
-    float: right;
-    width: 140px;
-    height: 120px;
-    border: 5px solid transparent;
-    margin: 5px;
-    
-}
-
-div.client {
-    display: block;
-    position: absolute;
-    top: 80px;
-    background-color: rgb(0, 48, 73, 0.842);
-    color: white;
-    margin: 65px;
-    padding: 2px;
-   text-align: justify;
-    
-}
-
-.client article p {
-    margin: 0px;
-}
 
 .rafting-history, .adventures {
     color: var(--primary-color);
