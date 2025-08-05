@@ -31,7 +31,7 @@ header {
     grid-template-columns: 1fr 120fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+	max-width: 900px;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     border-radius: 2px;
@@ -81,7 +81,7 @@ nav a {
 }
 
 header, main, footer {
-    width: 840px;
+    max-width: 840px;
     margin: 0 auto;
 } 
 
