@@ -22,7 +22,7 @@ body {
 
 h1, h2 {
     font-family: var(--Heading-font);
-    color: var(--secondary-color);
+    
     font-weight: 400; 
 }
 

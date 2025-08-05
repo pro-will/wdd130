@@ -15,14 +15,14 @@
 
 body {
    font-family: var(--body-font);
-   color: var(--secondary-color);
+   
    font-weight: 400;
    padding-bottom: 25px;
 }
 
 h1, h2 {
     font-family: var(--Heading-font);
-    color: var(--secondary-color);
+   
     font-weight: 400; 
 }
 
