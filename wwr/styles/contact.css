@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #0077B6;
+  --primary-color: #2ebb57;
   --secondary-color: #00B4D8;
   --accent1-color: #ffd700;
   --accent2-color: #ff8c00;
@@ -32,6 +32,7 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 900px;
+    height: 120px;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     border-radius: 2px;
@@ -43,7 +44,7 @@ header {
     padding-right: 25px;
     border-right: #222 solid 2px;
     justify-content: center;
-    
+    margin-top: 15px;
 }
 
 header img {
@@ -51,6 +52,7 @@ header img {
 	width: 105px;
 	height: auto;
     margin-left: 60px;
+    margin-top: 18px;
 }
 
 .navigation {
@@ -58,7 +60,7 @@ header img {
 	flex-wrap: wrap;
     background-color: white;
 	list-style: none;
-	padding: 0;
+	padding: 0px;
     margin-left: 50px;
     margin-right: 50px;
     justify-content: space-evenly;
