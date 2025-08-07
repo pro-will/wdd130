@@ -237,7 +237,7 @@ footer {
     display: flex;
     justify-content: right;
     border: 1px solid black;
-    
+    width: 840px;
 }
 
 .socialmedia a {
