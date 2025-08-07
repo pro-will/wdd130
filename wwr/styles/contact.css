@@ -233,6 +233,87 @@ figcaption {
     color: var(--primary-color);
 }
 
+.trips-table {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.trips-table h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 0.5);
+}
+
+.trips-table thead {
+    background-color: #0a4a67;
+    color: #fff;
+}
+
+.trips-table th, .trips-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.trips-table tbody tr:hover {
+    background-color: #f0f8ff;
+}
+
+.trips-table td:last-child {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+@media (max-width:600px) {
+    .trips-table table,
+    .trips-table thead,
+    .trips-table tbody,
+    .trips-table th,
+    .trips-table td,
+    .trips-table tr {
+        display: block;
+        width: 100%;
+    }
+
+    .trips-table thead {
+        display: none;
+    }
+
+    .trips-table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 0.5rem;
+        background-color: #fff;
+    }
+
+    .trips-table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75rem;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .trips-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: #555;
+    }
+}
+
 footer {
     background-color: var(--accent2-color);
     color: var(--secondary-color);
